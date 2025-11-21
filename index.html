@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Bootstrap Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-large">
+    <div class="container d-flex align-items-center">
+
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <i class="bi bi-airplane-engines logo-icon me-2"></i>
+        <span class="logo-text">RouteX</span>
+      </a>
+
+    
+      <!-- Menu -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <!-- HOME -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">HOME</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#overview">Overview</a></li>
+              <li><a class="dropdown-item" href="#features">Features</a></li>
+              <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#about">ABOUT US</a></li>
+
+          <!-- STORY -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">STORY</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#team">Our Team</a></li>
+              <li><a class="dropdown-item" href="#mission">Mission</a></li>
+              <li><a class="dropdown-item" href="#vision">Vision</a></li>
+            </ul>
+          </li>
+
+          <!-- BLOG -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BLOG</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#team">Our Team</a></li>
+              <li><a class="dropdown-item" href="#mission">Mission</a></li>
+              <li><a class="dropdown-item" href="#vision">Vision</a></li>
+            </ul>
+          </li>
+
+          <!-- VISA -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">VISA</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#team">Our Team</a></li>
+              <li><a class="dropdown-item" href="#mission">Mission</a></li>
+              <li><a class="dropdown-item" href="#vision">Vision</a></li>
+            </ul>
+          </li>
+
+          <!-- PAGE -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">PAGE</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#overview">Overview</a></li>
+              <li><a class="dropdown-item" href="#features">Features</a></li>
+              <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+
+        </ul>
+      </div>
+
+      <!-- Need Help -->
+      <div class="d-none d-lg-flex align-items-center ms-auto">
+        <i class="bi bi-chat-square-text fs-4 text-success me-2"></i>
+        <div>
+          <small class="text-muted fw-semibold">Need help?</small>
+          <div class="fw-bold">(307) 555–0133</div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="d-flex align-items-center position-relative">
+    <div class="overlay"></div>
+    <div class="container text-center text-white position-relative">
+      <h1 class="display-4 fw-bold mb-3">
+        Journey with Confidence <br>
+        <span class="text-success">Migrate</span> with Us
+      </h1>
+      <p class="mb-4 lead">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.<br>
+        Duis egestas ac ante sed tincidunt.
+      </p>
+      <a href="#learn" class="btn btn-success btn-lg px-5 py-3 rounded-pill fw-semibold">
+        Learn More <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Images -->
+        <div class="col-md-6 about-images">
+          <div class="row g-3">
+            <div class="col-6">
+              <img src="images/about_1.jpg" class="img-fluid rounded-4 shadow" alt="About image 1">
+            </div>
+            <div class="col-6">
+              <img src="images/about_2.jpg" class="img-fluid rounded-4 shadow" alt="About image 2">
+            </div>
+            <div class="col-6">
+              <div class="experience-box text-center text-white rounded-4 shadow">
+                <h3>10+</h3>
+                <p class="mb-0">Years Of<br>Experience</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="images/about_3.jpg" class="img-fluid rounded-4 shadow" alt="About image 3">
+            </div>
+          </div>
+        </div>
+
+        <!-- About Content -->
+        <div class="col-md-6 ps-md-5">
+          <small class="text-uppercase text-success fw-bold">
+            About Us <i class="bi bi-send-fill ms-1"></i>
+          </small>
+
+          <h2 class="fw-bold mt-2 mb-3">Unknown Wanderlust Your Journey into</h2>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcurus nunc. Duis egestas ac ante sed tincidunt.
+          </p>
+
+          <div class="row gy-3 mt-4">
+
+            <div class="col-sm-6 d-flex">
+              <i class="bi bi-check2-square text-success fs-4 me-2"></i>
+              <div>
+                <h6 class="fw-semibold mb-1">Safety Guides</h6>
+                <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6 d-flex">
+              <i class="bi bi-check2-square text-success fs-4 me-2"></i>
+              <div>
+                <h6 class="fw-semibold mb-1">Passport Assistance</h6>
+                <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+
+          </div>
+
+          <a href="#about" class="btn btn-success rounded-pill px-4 py-2 mt-4">
+            Read More <i class="bi bi-arrow-right ms-2"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+
+      <!-- Title -->
+      <div class="d-flex justify-content-between align-items-center flex-wrap mb-4">
+        <div>
+          <p class="text-uppercase fw-semibold text-success mb-1">
+            Our Services <i class="fa-solid fa-paper-plane"></i>
+          </p>
+          <h2 class="fw-bold display-6 text-success">
+            Adventure Unleashed <br>Discover Your Next
+          </h2>
+        </div>
+
+        <!-- Arrows -->
+        <div class="d-flex mt-3 mt-md-0">
+          <button class="btn btn-success rounded-circle me-2" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+
+          <button class="btn btn-success rounded-circle" data-bs-target="#serviceCarousel" data-bs-slide="next">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row gy-4">
+
+              <div class="col-md-4">
+               <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-earth-americas"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">Food & Wine Tours</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+               <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-passport"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">Travel Opportunities</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+               <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-plane-departure"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">Solo Travel Planning</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row gy-4">
+
+              <div class="col-md-4">
+                <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-hotel"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">Luxury Stays</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-ship"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">Cruise Trips</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-mountain"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">Mountain Hiking</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="row gy-4">
+
+              <div class="col-md-4">
+                <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-tree"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">Eco Tourism</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-car"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">Road Trips</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card p-4 shadow-lg border-0 rounded-4 h-100 text-center">
+
+                  <div class="icon-circle mx-auto mb-3">
+                    <i class="fa-solid fa-bus"></i>
+                  </div>
+                  <h5 class="fw-bold text-success">City Tours</h5>
+                  <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="bg-success text-white pt-5 pb-3">
+    <div class="container">
+
+      <div class="row gx-3 gy-3">
+
+        <!-- About -->
+        <div class="col-md-3">
+          <h5 class="fw-bold">RouteX</h5>
+          <p class="small">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc.
+            Duis egestas ac ante sed tincidunt.
+          </p>
+
+          <div class="d-flex gap-3 fs-5">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="col-md-3">
+          <h5 class="fw-bold">Services</h5>
+          <ul class="list-unstyled small">
+            <li><i class="bi bi-check me-2"></i> Mistakes To Avoid</li>
+            <li><i class="bi bi-check me-2"></i> Your Startup</li>
+            <li><i class="bi bi-check me-2"></i> Knew About Fonts</li>
+            <li><i class="bi bi-check me-2"></i> Knew About Fonts</li>
+          </ul>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="col-md-3">
+          <h5 class="fw-bold">Useful Links</h5>
+          <ul class="list-unstyled small">
+            <li><i class="fa-solid fa-angle-right me-2"></i> Latest News</li>
+            <li><i class="fa-solid fa-angle-right me-2"></i> Careers</li>
+            <li><i class="fa-solid fa-angle-right me-2"></i> General Inquiries</li>
+            <li><i class="fa-solid fa-angle-right me-2"></i> Case Studies</li>
+          </ul>
+        </div>
+
+        <!-- Gallery -->
+        <div class="col-md-3">
+          <h5 class="fw-bold">Gallery</h5>
+          <div class="d-flex flex-wrap gap-2">
+            <img src="images/about_1.jpg" width="70" height="70" class="rounded" alt="">
+            <img src="images/about_2.jpg" width="70" height="70" class="rounded" alt="">
+            <img src="images/about_3.jpg" width="70" height="70" class="rounded" alt="">
+            <img src="images/about_4.jpg" width="70" height="70" class="rounded" alt="">
+            <img src="images/plane.jpg" width="70" height="70" class="rounded" alt="">
+            <img src="images/images.jpg" width="70" height="70" class="rounded" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="border-light my-3">
+
+      <div class="d-flex justify-content-between small">
+        <p class="mb-0">© 2025 MySite. All Rights Reserved.</p>
+        <div>
+          <a href="#" class="text-white text-decoration-none me-3">Terms & Conditions</a>
+          <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+          <a href="#" class="text-white text-decoration-none">Contact Us</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
