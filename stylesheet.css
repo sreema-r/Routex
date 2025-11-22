@@ -300,7 +300,7 @@ footer {
     /* Add space between About images and About content on mobile */
 @media (max-width: 767px) {
   #about .about-images {
-    margin-bottom: 25px !important;
+    margin-bottom: 25px;
   }
 }
 
@@ -321,17 +321,17 @@ footer {
 
 @media (max-width: 767px) {
   #services .btn {
-    width: 40px !important;
-    height: 40px !important;
-    padding: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    border-radius: 50% !important;
+    width: 40px ;
+    height: 40px ;
+    padding: 0 !;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 50% ;
   }
 
   #services .btn i {
-    font-size: 18px !important;
+    font-size: 18px ;
   }
 }
 
@@ -340,22 +340,22 @@ footer {
 
 @media (max-width: 767px) {
   #contact {
-    text-align: left !important;
+    text-align: left;
   }
 
   #contact .row > div {
-    text-align: left !important;
+    text-align: left;
   }
 
   #contact ul,
   #contact li,
   #contact p,
   #contact h5 {
-    text-align: left !important;
+    text-align: left ;
   }
 
   #contact .d-flex {
-    justify-content: flex-start !important;
+    justify-content: flex-start ;
   }
 }
 
@@ -399,5 +399,6 @@ footer {
         font-size: 42px;
     }
 }
+
 
 
