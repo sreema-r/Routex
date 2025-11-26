@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5 {
 
 /* Experience Box */
 .experience-box {
-  background: #198754; /* or your desired color */
+  background: #198754;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
@@ -322,16 +322,16 @@ footer {
 @media (max-width: 767px) {
   #services .btn {
     width: 40px ;
-    height: 40px ;
-    padding: 0 !;
+    height: 40px !;
+    padding: 0 ;
     display: flex ;
-    align-items: center ;
-    justify-content: center ;
-    border-radius: 50% ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% t;
   }
 
   #services .btn i {
-    font-size: 18px ;
+    font-size: 18px;
   }
 }
 
@@ -340,18 +340,18 @@ footer {
 
 @media (max-width: 767px) {
   #contact {
-    text-align: left;
+    text-align: left ;
   }
 
   #contact .row > div {
-    text-align: left;
+    text-align: left ;
   }
 
   #contact ul,
   #contact li,
   #contact p,
   #contact h5 {
-    text-align: left ;
+    text-align: left;
   }
 
   #contact .d-flex {
@@ -399,6 +399,7 @@ footer {
         font-size: 42px;
     }
 }
+
 
 
 
