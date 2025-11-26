@@ -2,7 +2,7 @@
    GLOBAL STYLE
 ==================================== */
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -399,6 +399,7 @@ footer {
         font-size: 42px;
     }
 }
+
 
 
 
